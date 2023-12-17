@@ -1,7 +1,10 @@
 package net.bency.spineless;
 
+import net.bency.spineless.custommodels.Stripped_Cactus_Block;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.ItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,10 +16,7 @@ public class Spineless implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		Stripped_Cactus_Block.initStrippedCactus();
+		LOGGER.info("Blocks registered!");
 	}
 }
