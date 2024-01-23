@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 0.2,
+  "group": "cactus_cooking",
+  "ingredient": {
+    "item": "spineless:cactus_flesh"
+  },
+  "result": "spineless:cooked_cactus_flesh"
+}
