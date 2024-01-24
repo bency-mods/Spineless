@@ -1,15 +1,15 @@
 {
 	"schemaVersion": 1,
 	"id": "spineless",
-	"version": "${version}",
+	"version": "2.1.0_1.20.4",
 	"name": "Spineless",
 	"description": "Cacti are pretty useless- let's eat them! >:)",
 	"authors": [
 		"bency"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/spineless",
+		"sources": "https://github.com/bency-mods/Spineless"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/spineless/icon.png",

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "R",
+    "W"
+  ],
+  "key": {
+    "S": {
+      "item": "spineless:cactus_spine"
+    },
+    "W": {
+      "item": "minecraft:feather"
+    },
+    "R": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:arrow",
+    "count": 4
+  }
+}

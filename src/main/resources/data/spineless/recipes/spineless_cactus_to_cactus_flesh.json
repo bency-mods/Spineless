@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cactus_cooking",
+  "ingredients": [
+    {
+      "item": "spineless:stripped_cactus"
+    }
+  ],
+  "result": {
+    "item": "spineless:cactus_flesh",
+    "count": 3
+  }
+}
